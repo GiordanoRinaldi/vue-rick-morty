@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header title="Rick and Mortty app"/>
     <main>
     <Searchbar/>
     <Characters/>
@@ -19,11 +19,16 @@ export default {
     Header,
     Searchbar,
     Characters,
+  },
+  data(){
+    return {
+
+    }
   }
 }
 </script>
 
 <style lang="scss">
   @import "./assets/style/common";
-  
+
 </style>
